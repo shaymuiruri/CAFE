@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <title>NAT'S CAFÈ</title>
+    
+</head>
+  <body >
+    <header>
+        <h1><centre>Welcome to Talia's Cafè</centre> <centre>Shop</centre></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <hr>
+                <li><a href="#order">Order Now</a></li>
+                <hr>
+                <li><a href="#contact">Contact Us</a></li>
+                <hr>
+                <li><a href="#About us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li><b>Coffee</b>
+                <ul>
+                    
+                    <li>Espresso - $3.00</li>
+                    <li>Latte - $4.00</li>
+                    <li>Cappuccino - $4.50</li>
+                    <li>Black coffee - $5.00</li>
+                    
+                </ul>
+            </li>
+            <li><b>Pastries</b>
+                <ul>
+                    <li>Croissant - $2.00</li>
+                    <li>Chocolate Muffin - $2.50</li>
+                    <li>Donuts-$2.50</li>
+                    <li>Cookies-$2.00</li>
+                    <li>Cakes - $2.80</li>
+                    <li>Biscuit -$1.50</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <form action="confirm.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="coffee">Select Coffee:</label>
+            <select id="coffee" name="coffee">
+                <option value="espresso">Espresso</option>
+                <option value="latte">Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="Black Coffee">Black Coffee</option>
+                <option value="iced tea">Iced tea</option>
+                <option value="greentea">Green Tea</option>
+            </select>
+            
+            <label for="pastries">Select pastries:</label>
+            <select id="Pastries" name="Pastries">
+                <option value="Croissant">Croissant</option>
+                <option value="Chocolate Muffin">ChocolateMuffin</option>
+                <option value="Donuts">Donuts</option>
+                <option value="Cookies">Cookies</option>
+                <option value="Cakes">Cakes</option>
+                <option value="Biscuit">Biscuit</option>
+            </select>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            
+            <input type="submit" value="Place Order" href>
+            
+        </form>
+    </section>
+
+    <section id="About us">
+        <h2>About us</h2>
+        <p style="font-size: 25px;"
+            style="font-family: serif;">
+
+Welcome to Talia’s Cafe, where every cup tells a story! Founded in 2024, our cozy coffee shop is dedicated to crafting the perfect blend of flavor, warmth, and community.
+
+At Talia’s Cafe, we take pride in sourcing the finest, ethically grown coffee beans from around the world. Our skilled baristas are passionate about their craft, serving everything from classic espressos to innovative seasonal drinks. Each cup is made with care, ensuring a delightful experience from the first sip to the last.
+
+But we’re more than just great coffee! Our menu features an array of freshly baked pastries, light bites, and vegan options, all made with locally sourced ingredients. Whether you’re looking for a quick pick-me-up or a comfortable space to relax, Nat’s Cafe is the perfect destination.
+
+Community is at the heart of what we do. We host local events, showcase artwork from nearby artists, and strive to create a welcoming atmosphere for everyone. 
+
+Join us at Talia’s Cafe and discover a place where coffee lovers unite! We can’t wait to brew something special for you.</p>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Natescafe@gmail.com</p>
+        <p>Phone:  0701657530</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>

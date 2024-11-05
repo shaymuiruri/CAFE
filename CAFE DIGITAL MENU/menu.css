@@ -1,0 +1,57 @@
+body{
+    
+    background-image: url('cafe6.jpg');
+    animation-timeline: revert-layer;
+    text-align: fixed;
+    font-language-override: normal;
+    }
+       
+header {
+  
+  padding: 85px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family :monospace;
+}
+       
+ h1 {
+     color: rgba(189, 122, 22, 0.767);
+     background-color: bisque;
+     border-radius: 50px;
+     margin :0px;
+     width: 100%;
+     text-align: center;
+     border-right: 70px;
+     border-left: 70px;
+     }
+
+     h2 {
+     border-radius:75px;
+     margin :15px;
+     }
+
+  p {
+     color: black;
+    }
+  input {
+         border-radius:50px;
+         margin:20px;
+        }
+
+   nav {
+    background:#1b1b1b;
+    width: 100%;
+    margin-left: 0px;
+    font-size: 40px ;
+   }
+        
+  section{
+    font-size: 40px;
+    border-style: inherit;
+  }      
+
+footer{
+    font-size: 38px;
+}
+
